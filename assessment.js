@@ -25,6 +25,8 @@ assessmentButton.onclick = () => {
   const header = document.createElement('h3');
   header.innerText = '診断結果';
   resultDivided.appendChild(header);
+  
+  
 
   const paragraph = document.createElement('p');
   const result = assessment(userName);
